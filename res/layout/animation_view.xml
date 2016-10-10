@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:AnimationView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+     <com.example.animationview1010.AnimationView
+       android:id="@+id/av"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       AnimationView:sleep_time="1000"
+       AnimationView:images="@array/animationImages"
+       />
+    
+
+</RelativeLayout>

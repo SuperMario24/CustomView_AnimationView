@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimationView">
+        <attr name="sleep_time" format="float"></attr>
+        <attr name="images" format="reference"></attr>
+    </declare-styleable>
+</resources>
